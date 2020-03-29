@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <layout name="scene_game">
+        <AbsoluteLayout
+            layout_width="match_parent"
+            layout_height="match_parent"
+        >
+            <ImageView
+                id="background_image"
+                layout_x="0"
+                layout_y="0"
+            />
+            <TextView
+                layout_cx="50%"
+                layout_cy="90"
+                style="@style/common_text"
+                textSize="@dimen/game_title_textSize"
+                text="@string/game_title"
+            />
+            <AbsoluteLayout
+                id="left_photo_group"
+                layout_cx="25%"
+                layout_cy="50%"
+            >
+                <Rect
+                    id="left_photo_border"
+                    layout_x="0"
+                    layout_y="0"
+                    fillColor="@color/game_photoBorder_fillColor"
+                />
+                <ImageView
+                    id="left_photo_image"
+                    layout_x="10"
+                    layout_y="10"
+                />
+            </AbsoluteLayout>
+            <AbsoluteLayout
+                id="right_photo_group"
+                layout_cx="75%"
+                layout_cy="50%"
+            >
+                <Rect
+                    id="right_photo_border"
+                    layout_x="0"
+                    layout_y="0"
+                    fillColor="@color/game_photoBorder_fillColor"
+                />
+                <ImageView
+                    id="right_photo_image"
+                    layout_x="10"
+                    layout_y="10"
+                />
+            </AbsoluteLayout>
+            <TextView
+                id="left_photo_result_text"
+                layout_cx="25%"
+                layout_cy="630"
+                font="@font/primary"
+                textSize="@dimen/game_result_textSize"
+                visibility="gone"
+            />
+            <TextView
+                id="right_photo_result_text"
+                layout_cx="75%"
+                layout_cy="630"
+                font="@font/primary"
+                textSize="@dimen/game_result_textSize"
+                visibility="gone"
+            />
+            <LinearLayout
+                layout_cx="50%"
+                layout_y="660"
+                orientation="horizontal"
+            >
+                <ImageView drawable="@drawable/tile_todo" />
+                <ImageView drawable="@drawable/tile_todo" />
+                <ImageView drawable="@drawable/tile_todo" />
+                <ImageView drawable="@drawable/tile_todo" />
+                <ImageView drawable="@drawable/tile_todo" />
+            </LinearLayout>
+            <LinearLayout
+                id="current_group"
+                layout_cx="50%"
+                layout_y="660"
+                orientation="horizontal"
+            >
+                <ImageView drawable="@drawable/tile_current" />
+                <ImageView drawable="@drawable/tile_current" />
+                <ImageView drawable="@drawable/tile_current" />
+                <ImageView drawable="@drawable/tile_current" />
+                <ImageView drawable="@drawable/tile_current" />
+            </LinearLayout>
+            <LinearLayout
+                id="done_group"
+                layout_cx="50%"
+                layout_y="660"
+                orientation="horizontal"
+            >
+                <ImageView drawable="@drawable/tile_done" />
+                <ImageView drawable="@drawable/tile_done" />
+                <ImageView drawable="@drawable/tile_done" />
+                <ImageView drawable="@drawable/tile_done" />
+                <ImageView drawable="@drawable/tile_done" />
+            </LinearLayout>
+            <AbsoluteLayout
+                id="cat_group"
+                layout_cx="383"
+                layout_y="635"
+                layout_width="50"
+                layout_height="67"
+            >
+                <ImageView
+                    layout_cx="50%"
+                    layout_ey="100%"
+                    drawable="@drawable/cat_avatar_shadow"
+                />
+                <ImageView
+                    id="cat"
+                    layout_cx="50%"
+                    layout_y="0"
+                    drawable="@drawable/cat_avatar"
+                />
+            </AbsoluteLayout>
+        </AbsoluteLayout>
+    </layout>
+</resources>

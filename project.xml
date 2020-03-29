@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Love Time" package="org.zamedev.lovetime" version="1.0.0" company="EightSines" />
+
+	<app main="org.zamedev.lovetime.App" path="export" file="lovetime" />
+	<icon path="assets/icon.png" />
+
+	<set name="legacy" if="native" />
+    <set name="dom" if="html5" />
+    <set name="SWF_VERSION" value="11.2" if="flash" />
+    <set name="haxe-trace" if="flash" />
+
+	<haxedef name="haxeJSON" />
+	<haxedef name="dom" if="dom" unless="canvas || wegbl" />
+	<haxedef name="legacy" if="legacy" />
+    <haxedef name="network-sandbox" if="flash" />
+
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	<haxelib name="zame-tween" />
+	<haxelib name="random" />
+	<haxelib name="format" />
+	<haxelib name="polygonal-printf" />
+	<haxelib name="bitmapFont" />
+	<haxelib name="zame-stringutils" />
+	<haxelib name="zame-miscutils" />
+	<haxelib name="zame-ui" />
+	<haxelib name="zame-fileutils" />
+	<haxelib name="zame-particles" />
+
+	<window
+		hardware="true"
+		background="#d5edf7"
+		resizable="false"
+		vsync="true"
+		fps="60"
+	/>
+
+	<window width="0" height="0" fullscreen="true" orientation="landscape" if="mobile" />
+	<window width="1024" height="768" if="flash" />
+
+	<source path="source" />
+	<template path="templates" />
+
+	<assets path="assets/drawable" rename="drawable" />
+	<assets path="assets/photo" rename="photo" />
+	<assets path="assets/font" exclude="*.eot|*.svg|*.woff" rename="font" />
+	<assets path="assets/particle" rename="particle" />
+	<assets path="assets/sound" rename="sound" if="html5" />
+
+	<assets path="assets/sound" rename="sound" if="web">
+		<music path="bgm_end.mp3" id="bgm_end" />
+		<music path="bgm_game.mp3" id="bgm_game" />
+		<music path="bgm_pre.mp3" id="bgm_pre" />
+		<music path="bgm_start.mp3" id="bgm_start" />
+		<sound path="disappear.mp3" id="disappear" />
+		<sound path="press.mp3" id="press" />
+		<sound path="right.mp3" id="right" />
+		<sound path="wrong.mp3" id="wrong" />
+		<sound path="shake.mp3" id="shake" />
+	</assets>
+
+	<assets path="assets/sound" rename="sound" unless="web">
+		<music path="bgm_end.ogg" id="bgm_end" />
+		<music path="bgm_game.ogg" id="bgm_game" />
+		<music path="bgm_pre.ogg" id="bgm_pre" />
+		<music path="bgm_start.ogg" id="bgm_start" />
+		<sound path="disappear.ogg" id="disappear" />
+		<sound path="press.ogg" id="press" />
+		<sound path="right.ogg" id="right" />
+		<sound path="wrong.ogg" id="wrong" />
+		<sound path="shake.ogg" id="shake" />
+	</assets>
+</project>

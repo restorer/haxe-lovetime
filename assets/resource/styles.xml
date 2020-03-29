@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="common_text">
+        <item name="font">@font/primary</item>
+        <item name="textColor">@color/common_text</item>
+        <item name="textAlign">center</item>
+    </style>
+</resources>

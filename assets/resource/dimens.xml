@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="start_intro_textSize">48</dimen>
+    <dimen name="start_vs_textSize">150</dimen>
+    <dimen name="start_next_textSize">72</dimen>
+    <dimen name="pre_title_textSize">48</dimen>
+    <dimen name="pre_play_textSize">72</dimen>
+    <dimen name="game_title_textSize">48</dimen>
+    <dimen name="game_result_textSize">48</dimen>
+    <dimen name="end_result_textSize">48</dimen>
+    <dimen name="end_restart_textSize">72</dimen>
+</resources>

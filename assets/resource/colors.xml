@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_text">#4c7180</color>
+
+    <color name="game_photoBorder_fillColor">#ffffff</color>
+    <color name="game_right_text">#648c44</color>
+    <color name="game_wrong_text">#e07850</color>
+</resources>

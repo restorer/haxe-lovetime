@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_intro_1">Доктор Вредник похитил все цвета...</string>
+    <string name="start_intro_2">Помоги доброму котёнку вернуть их</string>
+    <string name="start_intro_3"><![CDATA[
+Для этого расположи
+наши фографии
+в правильном порядке
+    ]]></string>
+    <string name="start_vs">VS</string>
+    <string name="start_next">Далее ></string>
+    <string name="pre_title_1"><![CDATA[
+Эпизод 1:
+Мексикос
+    ]]></string>
+    <string name="pre_title_2"><![CDATA[
+Эпизод 2:
+Пустынное солнце
+    ]]></string>
+    <string name="pre_title_3"><![CDATA[
+Эпизод 3:
+Туманный лес
+    ]]></string>
+    <string name="pre_play">Играть!</string>
+
+    <string name="game_title"><![CDATA[
+Выбери то фото,
+которое сфотано раньше
+    ]]></string>
+    <string name="game_wrong_1">Как же так...</string>
+    <string name="game_wrong_2">Попробуй ещё...</string>
+    <string name="game_wrong_3">Увы :(</string>
+    <string name="game_right_1">Правильно!</string>
+    <string name="game_right_2">Люблю :*</string>
+    <string name="game_right_3">Молодец!</string>
+    <string name="end_restart">Заново</string>
+    <string name="end_result"><![CDATA[
+Ты прошла игру :*
+Я тебя люблю :*
+    ]]></string>
+</resources>

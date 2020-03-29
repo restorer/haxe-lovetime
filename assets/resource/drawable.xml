@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="snake_big">
+        <packed drawable="@drawable/packed_1" x="1" y="1" w="284" h="321" />
+    </drawable>
+    <drawable name="cat_big">
+        <packed drawable="@drawable/packed_1" x="1" y="323" w="284" h="318" />
+    </drawable>
+    <drawable name="snake_small">
+        <packed drawable="@drawable/packed_1" x="1" y="642" w="150" h="170" />
+    </drawable>
+    <drawable name="cat_small">
+        <packed drawable="@drawable/packed_1" x="1" y="813" w="150" h="168" />
+    </drawable>
+    <drawable name="tile_ep2">
+        <packed drawable="@drawable/packed_1" x="152" y="813" w="65" h="89" />
+    </drawable>
+    <drawable name="tile_ep3">
+        <packed drawable="@drawable/packed_1" x="152" y="903" w="65" h="89" />
+    </drawable>
+    <drawable name="tile_todo">
+        <packed drawable="@drawable/packed_1" x="218" y="903" w="65" h="89" />
+    </drawable>
+    <drawable name="tile_ep1">
+        <packed drawable="@drawable/packed_1" x="284" y="903" w="65" h="89" />
+    </drawable>
+    <drawable name="tile_current">
+        <packed drawable="@drawable/packed_1" x="350" y="903" w="65" h="89" />
+    </drawable>
+    <drawable name="tile_done">
+        <packed drawable="@drawable/packed_1" x="416" y="903" w="65" h="89" />
+    </drawable>
+    <drawable name="tile_hollow">
+        <packed drawable="@drawable/packed_1" x="482" y="903" w="65" h="76" />
+    </drawable>
+    <drawable name="cat_avatar">
+        <packed drawable="@drawable/packed_1" x="548" y="903" w="50" h="58" />
+    </drawable>
+    <drawable name="cat_avatar_shadow">
+        <packed drawable="@drawable/packed_1" x="1" y="993" w="32" h="16" />
+    </drawable>
+</resources>
