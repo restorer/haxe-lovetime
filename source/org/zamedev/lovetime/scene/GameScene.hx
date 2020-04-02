@@ -44,19 +44,19 @@ class GameScene extends BaseScene {
         contentView = (viewGroup = cast context.inflater.inflate(R.layout.scene_game));
         attachPressSounds();
 
-        backgroundImageView = cast viewGroup.findViewById("background_image");
-        leftPhotoGroupView = cast viewGroup.findViewById("left_photo_group");
-        leftPhotoBorderView = cast viewGroup.findViewById("left_photo_border");
-        leftPhotoImageView = cast viewGroup.findViewById("left_photo_image");
-        rightPhotoGroupView = cast viewGroup.findViewById("right_photo_group");
-        rightPhotoBorderView = cast viewGroup.findViewById("right_photo_border");
-        rightPhotoImageView = cast viewGroup.findViewById("right_photo_image");
-        leftPhotoResultTextView = cast viewGroup.findViewById("left_photo_result_text");
-        rightPhotoResultTextView = cast viewGroup.findViewById("right_photo_result_text");
-        catGroupView = cast viewGroup.findViewById("cat_group");
-        catView = cast viewGroup.findViewById("cat");
-        currentGroupView = cast viewGroup.findViewById("current_group");
-        doneGroupView = cast viewGroup.findViewById("done_group");
+        backgroundImageView = cast viewGroup.findViewById(R.id.background_image);
+        leftPhotoGroupView = cast viewGroup.findViewById(R.id.left_photo_group);
+        leftPhotoBorderView = cast viewGroup.findViewById(R.id.left_photo_border);
+        leftPhotoImageView = cast viewGroup.findViewById(R.id.left_photo_image);
+        rightPhotoGroupView = cast viewGroup.findViewById(R.id.right_photo_group);
+        rightPhotoBorderView = cast viewGroup.findViewById(R.id.right_photo_border);
+        rightPhotoImageView = cast viewGroup.findViewById(R.id.right_photo_image);
+        leftPhotoResultTextView = cast viewGroup.findViewById(R.id.left_photo_result_text);
+        rightPhotoResultTextView = cast viewGroup.findViewById(R.id.right_photo_result_text);
+        catGroupView = cast viewGroup.findViewById(R.id.cat_group);
+        catView = cast viewGroup.findViewById(R.id.cat);
+        currentGroupView = cast viewGroup.findViewById(R.id.current_group);
+        doneGroupView = cast viewGroup.findViewById(R.id.done_group);
 
         rightTextList = [
             context.resourceManager.getString(R.string.game_right_1),

@@ -6,49 +6,49 @@
             layout_height="match_parent"
         >
             <ImageView
-                id="background_ep1_nocolor"
+                id="@id/background_ep1_nocolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep1_nocolor"
                 visibility="gone"
             />
             <ImageView
-                id="background_ep1_hascolor"
+                id="@id/background_ep1_hascolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep1_hascolor"
                 visibility="gone"
             />
             <ImageView
-                id="background_ep2_nocolor"
+                id="@id/background_ep2_nocolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep2_nocolor"
                 visibility="gone"
             />
             <ImageView
-                id="background_ep2_hascolor"
+                id="@id/background_ep2_hascolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep2_hascolor"
                 visibility="gone"
             />
             <ImageView
-                id="background_ep3_nocolor"
+                id="@id/background_ep3_nocolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep3_nocolor"
                 visibility="gone"
             />
             <ImageView
-                id="background_ep3_hascolor"
+                id="@id/background_ep3_hascolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep3_hascolor"
                 visibility="gone"
             />
             <TextView
-                id="intro_1_text"
+                id="@id/intro_1_text"
                 layout_cx="50%"
                 layout_cy="265"
                 style="@style/common_text"
@@ -57,7 +57,7 @@
                 visibility="gone"
             />
             <TextView
-                id="intro_2_text"
+                id="@id/intro_2_text"
                 layout_cx="50%"
                 layout_cy="265"
                 style="@style/common_text"
@@ -66,7 +66,7 @@
                 visibility="gone"
             />
             <TextView
-                id="intro_3_text"
+                id="@id/intro_3_text"
                 layout_cx="50%"
                 layout_cy="380"
                 style="@style/common_text"
@@ -75,21 +75,21 @@
                 visibility="gone"
             />
             <ImageView
-                id="snake_small"
+                id="@id/snake_small"
                 layout_ex="992"
                 layout_y="32"
                 drawable="@drawable/snake_small"
                 visibility="gone"
             />
             <ImageView
-                id="cat_small"
+                id="@id/cat_small"
                 layout_x="32"
                 layout_y="32"
                 drawable="@drawable/cat_small"
                 visibility="gone"
             />
             <AbsoluteLayout
-                id="vs_group"
+                id="@id/vs_group"
                 layout_x="0"
                 layout_y="0"
                 layout_width="match_parent"
@@ -115,14 +115,13 @@
                 />
             </AbsoluteLayout>
             <Button
-                id="next_btn"
+                id="@id/next_btn"
                 layout_cx="50%"
                 layout_cy="690"
                 tags="pressSound"
                 font="@font/primary"
-                style="@style/common_text"
+                style="@style/common_button"
                 textSize="@dimen/start_next_textSize"
-                selector="@selector/common_button"
                 text="@string/start_next"
                 visibility="gone"
             />

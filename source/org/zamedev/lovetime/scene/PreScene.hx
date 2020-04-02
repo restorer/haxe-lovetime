@@ -41,10 +41,10 @@ class PreScene extends BaseScene {
         contentView = (viewGroup = cast context.inflater.inflate(R.layout.scene_pre));
         attachPressSounds();
 
-        backgroundImageView = cast viewGroup.findViewById("background_image");
-        titleTextView = cast viewGroup.findViewById("title_text");
-        containerView = cast viewGroup.findViewById("container");
-        catGroupView = cast viewGroup.findViewById("cat_group");
+        backgroundImageView = cast viewGroup.findViewById(R.id.background_image);
+        titleTextView = cast viewGroup.findViewById(R.id.title_text);
+        containerView = cast viewGroup.findViewById(R.id.container);
+        catGroupView = cast viewGroup.findViewById(R.id.cat_group);
 
         createCellMap([
             [   0,  0,  0,  0,  0,  0,  4,  4,  0,  3,  3   ],
@@ -54,7 +54,7 @@ class PreScene extends BaseScene {
             [   1,  1,  0,  4,  4,  0,  0,  0,  0,  0,  0   ],
         ]);
 
-        viewGroup.findViewById("play_btn").addEventListener(MouseEvent.CLICK, function(_) {
+        viewGroup.findViewById(R.id.play_btn).addEventListener(MouseEvent.CLICK, function(_) {
             app.changeScene(app.gameScene);
         });
 

@@ -17,7 +17,7 @@
 
 	<haxelib name="openfl" />
 	<haxelib name="actuate" />
-	<haxelib name="zame-tween" />
+	<!-- <haxelib name="zame-tween" /> -->
 	<haxelib name="random" />
 	<haxelib name="format" />
 	<haxelib name="polygonal-printf" />

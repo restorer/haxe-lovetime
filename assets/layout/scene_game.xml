@@ -6,7 +6,7 @@
             layout_height="match_parent"
         >
             <ImageView
-                id="background_image"
+                id="@id/background_image"
                 layout_x="0"
                 layout_y="0"
             />
@@ -18,41 +18,41 @@
                 text="@string/game_title"
             />
             <AbsoluteLayout
-                id="left_photo_group"
+                id="@id/left_photo_group"
                 layout_cx="25%"
                 layout_cy="50%"
             >
                 <Rect
-                    id="left_photo_border"
+                    id="@id/left_photo_border"
                     layout_x="0"
                     layout_y="0"
                     fillColor="@color/game_photoBorder_fillColor"
                 />
                 <ImageView
-                    id="left_photo_image"
+                    id="@id/left_photo_image"
                     layout_x="10"
                     layout_y="10"
                 />
             </AbsoluteLayout>
             <AbsoluteLayout
-                id="right_photo_group"
+                id="@id/right_photo_group"
                 layout_cx="75%"
                 layout_cy="50%"
             >
                 <Rect
-                    id="right_photo_border"
+                    id="@id/right_photo_border"
                     layout_x="0"
                     layout_y="0"
                     fillColor="@color/game_photoBorder_fillColor"
                 />
                 <ImageView
-                    id="right_photo_image"
+                    id="@id/right_photo_image"
                     layout_x="10"
                     layout_y="10"
                 />
             </AbsoluteLayout>
             <TextView
-                id="left_photo_result_text"
+                id="@id/left_photo_result_text"
                 layout_cx="25%"
                 layout_cy="630"
                 font="@font/primary"
@@ -60,7 +60,7 @@
                 visibility="gone"
             />
             <TextView
-                id="right_photo_result_text"
+                id="@id/right_photo_result_text"
                 layout_cx="75%"
                 layout_cy="630"
                 font="@font/primary"
@@ -79,7 +79,7 @@
                 <ImageView drawable="@drawable/tile_todo" />
             </LinearLayout>
             <LinearLayout
-                id="current_group"
+                id="@id/current_group"
                 layout_cx="50%"
                 layout_y="660"
                 orientation="horizontal"
@@ -91,7 +91,7 @@
                 <ImageView drawable="@drawable/tile_current" />
             </LinearLayout>
             <LinearLayout
-                id="done_group"
+                id="@id/done_group"
                 layout_cx="50%"
                 layout_y="660"
                 orientation="horizontal"
@@ -103,7 +103,7 @@
                 <ImageView drawable="@drawable/tile_done" />
             </LinearLayout>
             <AbsoluteLayout
-                id="cat_group"
+                id="@id/cat_group"
                 layout_cx="383"
                 layout_y="635"
                 layout_width="50"
@@ -115,7 +115,7 @@
                     drawable="@drawable/cat_avatar_shadow"
                 />
                 <ImageView
-                    id="cat"
+                    id="@id/cat"
                     layout_cx="50%"
                     layout_y="0"
                     drawable="@drawable/cat_avatar"

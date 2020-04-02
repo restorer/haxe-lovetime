@@ -6,24 +6,24 @@
             layout_height="match_parent"
         >
             <ImageView
-                id="background_image"
+                id="@id/background_image"
                 layout_x="0"
                 layout_y="0"
             />
             <TextView
-                id="title_text"
+                id="@id/title_text"
                 layout_cx="50%"
                 layout_cy="120"
                 style="@style/common_text"
                 textSize="@dimen/pre_title_textSize"
             />
             <View
-                id="container"
+                id="@id/container"
                 layout_x="0"
                 layout_y="0"
             />
             <AbsoluteLayout
-                id="cat_group"
+                id="@id/cat_group"
                 layout_x="0"
                 layout_y="0"
                 layout_width="50"
@@ -41,14 +41,13 @@
                 />
             </AbsoluteLayout>
             <Button
-                id="play_btn"
+                id="@id/play_btn"
                 layout_cx="50%"
                 layout_cy="690"
                 tags="pressSound"
                 font="@font/primary"
-                style="@style/common_text"
+                style="@style/common_button"
                 textSize="@dimen/pre_play_textSize"
-                selector="@selector/common_button"
                 text="@string/pre_play"
             />
         </AbsoluteLayout>

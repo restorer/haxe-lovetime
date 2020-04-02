@@ -6,55 +6,55 @@
             layout_height="match_parent"
         >
             <ImageView
-                id="background_ep1_hascolor"
+                id="@id/background_ep1_hascolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep1_hascolor"
                 visibility="gone"
             />
             <ImageView
-                id="background_ep1_nocolor"
+                id="@id/background_ep1_nocolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep1_nocolor"
                 visibility="gone"
             />
             <ImageView
-                id="background_ep2_hascolor"
+                id="@id/background_ep2_hascolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep2_hascolor"
                 visibility="gone"
             />
             <ImageView
-                id="background_ep2_nocolor"
+                id="@id/background_ep2_nocolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep2_nocolor"
                 visibility="gone"
             />
             <ImageView
-                id="background_ep3_hascolor"
+                id="@id/background_ep3_hascolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep3_hascolor"
                 visibility="gone"
             />
             <ImageView
-                id="background_ep3_nocolor"
+                id="@id/background_ep3_nocolor"
                 layout_x="0"
                 layout_y="0"
                 drawable="@drawable/background_ep3_nocolor"
                 visibility="gone"
             />
             <ImageView
-                id="snake"
+                id="@id/snake"
                 layout_cx="50%"
                 layout_cy="50%"
                 drawable="@drawable/snake_big"
             />
             <TextView
-                id="result_text"
+                id="@id/result_text"
                 layout_cx="50%"
                 layout_cy="25%"
                 style="@style/common_text"
@@ -64,14 +64,13 @@
                 visibility="gone"
             />
             <Button
-                id="restart_btn"
+                id="@id/restart_btn"
                 layout_cx="50%"
                 layout_cy="690"
                 tags="pressSound"
                 font="@font/primary"
-                style="@style/common_text"
+                style="@style/common_button"
                 textSize="@dimen/end_restart_textSize"
-                selector="@selector/common_button"
                 text="@string/end_restart"
                 visibility="gone"
             />

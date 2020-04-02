@@ -26,23 +26,23 @@ class EndScene extends BaseScene {
         attachPressSounds();
 
         backgroundItemList.push({
-            noColorView: cast viewGroup.findViewById("background_ep1_nocolor"),
-            hasColorView: cast viewGroup.findViewById("background_ep1_hascolor"),
+            noColorView: cast viewGroup.findViewById(R.id.background_ep1_nocolor),
+            hasColorView: cast viewGroup.findViewById(R.id.background_ep1_hascolor),
         });
 
         backgroundItemList.push({
-            noColorView: cast viewGroup.findViewById("background_ep2_nocolor"),
-            hasColorView: cast viewGroup.findViewById("background_ep2_hascolor"),
+            noColorView: cast viewGroup.findViewById(R.id.background_ep2_nocolor),
+            hasColorView: cast viewGroup.findViewById(R.id.background_ep2_hascolor),
         });
 
         backgroundItemList.push({
-            noColorView: cast viewGroup.findViewById("background_ep3_nocolor"),
-            hasColorView: cast viewGroup.findViewById("background_ep3_hascolor"),
+            noColorView: cast viewGroup.findViewById(R.id.background_ep3_nocolor),
+            hasColorView: cast viewGroup.findViewById(R.id.background_ep3_hascolor),
         });
 
-        snakeView = cast viewGroup.findViewById("snake");
-        resultTextView = cast viewGroup.findViewById("result_text");
-        restartBtn = cast viewGroup.findViewById("restart_btn");
+        snakeView = cast viewGroup.findViewById(R.id.snake);
+        resultTextView = cast viewGroup.findViewById(R.id.result_text);
+        restartBtn = cast viewGroup.findViewById(R.id.restart_btn);
 
         restartBtn.addEventListener(MouseEvent.CLICK, function(_) {
             app.currentEpisode = 1;

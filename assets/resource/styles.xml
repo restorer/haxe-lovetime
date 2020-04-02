@@ -5,4 +5,12 @@
         <item name="textColor">@color/common_text</item>
         <item name="textAlign">center</item>
     </style>
+
+    <style name="common_button">
+        <include name="@style/common_text" />
+        <item name="alpha">
+            <state pressed="true">0.5</state>
+            <state>1.0</state>
+        </item>
+    </style>
 </resources>

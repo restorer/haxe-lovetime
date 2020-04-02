@@ -34,27 +34,27 @@ class StartScene extends BaseScene {
         attachPressSounds();
 
         backgroundItemList.push({
-            noColorView: cast viewGroup.findViewById("background_ep1_nocolor"),
-            hasColorView: cast viewGroup.findViewById("background_ep1_hascolor"),
+            noColorView: cast viewGroup.findViewById(R.id.background_ep1_nocolor),
+            hasColorView: cast viewGroup.findViewById(R.id.background_ep1_hascolor),
         });
 
         backgroundItemList.push({
-            noColorView: cast viewGroup.findViewById("background_ep2_nocolor"),
-            hasColorView: cast viewGroup.findViewById("background_ep2_hascolor"),
+            noColorView: cast viewGroup.findViewById(R.id.background_ep2_nocolor),
+            hasColorView: cast viewGroup.findViewById(R.id.background_ep2_hascolor),
         });
 
         backgroundItemList.push({
-            noColorView: cast viewGroup.findViewById("background_ep3_nocolor"),
-            hasColorView: cast viewGroup.findViewById("background_ep3_hascolor"),
+            noColorView: cast viewGroup.findViewById(R.id.background_ep3_nocolor),
+            hasColorView: cast viewGroup.findViewById(R.id.background_ep3_hascolor),
         });
 
-        introText1View = cast viewGroup.findViewById("intro_1_text");
-        introText2View = cast viewGroup.findViewById("intro_2_text");
-        introText3View = cast viewGroup.findViewById("intro_3_text");
-        snakeSmallView = cast viewGroup.findViewById("snake_small");
-        catSmallView = cast viewGroup.findViewById("cat_small");
-        vsGroupView = cast viewGroup.findViewById("vs_group");
-        nextBtn = cast viewGroup.findViewById("next_btn");
+        introText1View = cast viewGroup.findViewById(R.id.intro_1_text);
+        introText2View = cast viewGroup.findViewById(R.id.intro_2_text);
+        introText3View = cast viewGroup.findViewById(R.id.intro_3_text);
+        snakeSmallView = cast viewGroup.findViewById(R.id.snake_small);
+        catSmallView = cast viewGroup.findViewById(R.id.cat_small);
+        vsGroupView = cast viewGroup.findViewById(R.id.vs_group);
+        nextBtn = cast viewGroup.findViewById(R.id.next_btn);
 
         nextBtn.addEventListener(MouseEvent.CLICK, function(_) {
             onNext();
